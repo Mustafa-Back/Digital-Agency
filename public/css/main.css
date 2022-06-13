@@ -434,7 +434,6 @@ footer {
   .sec-4-img {
     display: none;
   }
-
   .sec-4-txt h3 {
     font-size: 32px;
     margin-top: 56px;
@@ -446,6 +445,9 @@ footer {
   }
   .sec-4-txt button {
     margin-bottom: 48px;
+  }
+  .sec-3 h3 {
+    max-width: 100%;
   }
   .icon img {
     padding: 10px;
