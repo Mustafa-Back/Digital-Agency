@@ -195,6 +195,12 @@ button:hover {
 .sec-img {
   width: 450px;
 }
+.sec-img img {
+  width: 100%;
+}
+.sec-2 img {
+  width: 100%;
+}
 .sec-txt {
   max-width: 435.69px;
   overflow: hidden;
@@ -376,6 +382,12 @@ footer {
   * {
     text-align: center;
   }
+  div {
+    overflow: hidden;
+  }
+  .hero {
+    max-width: 378px;
+  }
   .hero-txt {
     max-width: 378px;
   }
@@ -393,6 +405,9 @@ footer {
   .sec-2 {
     max-width: 510px;
     padding: 2px;
+  }
+  .sec {
+    max-width: 378px;
   }
   .sec h3 {
     font-size: 32px;
@@ -422,7 +437,7 @@ footer {
     display: none;
   }
   .sec-4 {
-    max-width: 379px;
+    max-width: 378px;
   }
 
   .sec-4-txt h3 {
