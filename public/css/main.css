@@ -358,7 +358,7 @@ footer {
     background: #f6f6f6;
     opacity: 0.99;
     backdrop-filter: blur(10px);
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
