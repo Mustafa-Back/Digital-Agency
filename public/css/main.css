@@ -35,6 +35,7 @@ header {
   align-items: center;
   justify-content: space-around;
   height: 80px;
+  transition: 0.3s;
 }
 header::before {
   content: "";
