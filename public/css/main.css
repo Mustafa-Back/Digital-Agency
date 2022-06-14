@@ -27,6 +27,9 @@ a:hover {
   --main-color-hover: #7f9abe;
   --main-color-bg: #f6f6f6;
 }
+::selection {
+  background: #8eadd5;
+}
 body {
   font-family: "Inter";
   overflow-x: hidden;
@@ -37,6 +40,8 @@ header {
   justify-content: space-around;
   height: 80px;
   transition: 0.3s;
+  top: 0;
+  position: sticky;
 }
 header::before {
   content: "";
@@ -48,6 +53,16 @@ header::before {
   background: rgba(142, 173, 213, 0.24);
   filter: blur(306px);
   z-index: -1;
+}
+.header {
+  background: #ffffffad;
+  opacity: 0.99;
+  backdrop-filter: blur(5px);
+  z-index: 1;
+  border-bottom: 1px solid #8eadd5;
+}
+.header .logo {
+  color: #8eadd5;
 }
 .logo {
   font-style: normal;
@@ -348,6 +363,7 @@ footer {
 }
 .menu {
   display: none;
+  cursor: pointer;
 }
 .o-nav {
   transform: translate(0, 0);
@@ -357,12 +373,10 @@ footer {
     display: block;
   }
   .o-nav {
-    transform: translate(0, 60px);
+    transform: translate(0, 80px);
   }
   nav {
-    background: #f6f6f6;
-    opacity: 0.99;
-    backdrop-filter: blur(10px);
+    background: #eeeeee89;
     position: fixed;
     top: 0;
     left: 0;
@@ -375,7 +389,11 @@ footer {
   }
   nav ul a li {
     display: block;
-    border-bottom: 1px solid #6670851c;
+    border-bottom: 1px solid #6670852a;
+  }
+  nav ul a:hover li {
+    background: #8eadd5;
+    color: #fff;
   }
   * {
     text-align: center;
