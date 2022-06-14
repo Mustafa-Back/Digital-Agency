@@ -6,34 +6,42 @@
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
 }
+
 img {
   user-select: none;
   -webkit-user-drag: none;
   transition: ease 0.3s;
 }
+
 img:hover {
   transform: scale(1.05);
 }
+
 a {
   color: var(--main-color);
   transition: 0.3s;
 }
+
 a:hover {
   color: var(--main-color-hover);
 }
+
 :root {
   --main-color-black: #272d38;
   --main-color: #8eadd5;
   --main-color-hover: #7f9abe;
   --main-color-bg: #f6f6f6;
 }
+
 ::selection {
   background: #8eadd5;
 }
+
 body {
   font-family: "Inter";
   overflow-x: hidden;
 }
+
 header {
   display: flex;
   align-items: center;
@@ -43,6 +51,7 @@ header {
   top: 0;
   position: sticky;
 }
+
 header::before {
   content: "";
   position: absolute;
@@ -54,6 +63,7 @@ header::before {
   filter: blur(306px);
   z-index: -1;
 }
+
 .header {
   background: #ffffffad;
   opacity: 0.99;
@@ -61,9 +71,11 @@ header::before {
   z-index: 1;
   border-bottom: 1px solid #8eadd5;
 }
+
 .header .logo {
   color: #8eadd5;
 }
+
 .logo {
   font-style: normal;
   font-weight: 700;
@@ -77,15 +89,18 @@ nav ul {
   padding: 0;
   margin: 0;
 }
+
 nav ul li {
   display: inline;
   padding: 15px;
   list-style: none;
   transition: 0.3s;
 }
+
 nav a:hover li {
   color: var(--main-color);
 }
+
 nav ul a {
   text-decoration: none;
   font-weight: 400;
@@ -94,6 +109,7 @@ nav ul a {
   text-transform: lowercase;
   color: var(--main-color-black);
 }
+
 .hero {
   max-width: 1065px;
   margin: auto;
@@ -103,11 +119,13 @@ nav ul a {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 .hero-txt {
   width: 540px;
   margin: auto;
   overflow-x: hidden;
 }
+
 .hero-txt h1 {
   font-style: normal;
   font-weight: 700;
@@ -117,6 +135,7 @@ nav ul a {
   color: var(--main-color-black);
   margin-bottom: 20px;
 }
+
 .hero-txt p {
   font-style: normal;
   font-weight: 400;
@@ -126,6 +145,7 @@ nav ul a {
   color: var(--main-color-black);
   margin-bottom: 40px;
 }
+
 button {
   border: 0;
   background: var(--main-color);
@@ -140,12 +160,15 @@ button {
   height: 48px;
   transition: 0.3s;
 }
+
 button:hover {
   background: var(--main-color-hover);
 }
+
 .hero-img {
   width: 450px;
 }
+
 .hero img {
   width: 100%;
 }
@@ -159,9 +182,11 @@ button:hover {
   margin: auto;
   overflow: hidden;
 }
+
 .arror:hover {
   transform: translateX(2px);
 }
+
 .sec-2 div:nth-child(1) {
   margin-top: 155px;
   margin-bottom: 16px;
@@ -171,6 +196,7 @@ button:hover {
   text-transform: capitalize;
   color: #667085;
 }
+
 .icon {
   /* width: 915px; */
   width: 100%;
@@ -185,6 +211,7 @@ button:hover {
   gap: 1px;
   flex-wrap: wrap;
 }
+
 .sun::before {
   content: "";
   z-index: -1;
@@ -210,6 +237,7 @@ button:hover {
 .sec-img {
   width: 450px;
 }
+
 .sec-img img {
   width: 100%;
 }
@@ -218,6 +246,7 @@ button:hover {
   max-width: 435.69px;
   overflow: hidden;
 }
+
 .sec-txt h3 {
   font-weight: 700;
   font-size: 48px;
@@ -226,6 +255,7 @@ button:hover {
   color: var(--main-color-black);
   margin-bottom: 20px;
 }
+
 .sec-txt p {
   font-weight: 400;
   font-size: 16px;
@@ -234,6 +264,7 @@ button:hover {
   color: var(--main-color-black);
   margin-bottom: 40px;
 }
+
 .sec-txt img {
   cursor: pointer;
 }
@@ -247,6 +278,7 @@ button:hover {
 .sec-3-head {
   text-align: center;
 }
+
 .sec-3-head p {
   text-align: center;
   font-size: 16px;
@@ -254,6 +286,7 @@ button:hover {
   text-transform: capitalize;
   margin-bottom: 16px;
 }
+
 .sec-3-head h3 {
   width: 435.69px;
   margin: auto;
@@ -264,6 +297,7 @@ button:hover {
   text-transform: capitalize;
   margin-bottom: 38px;
 }
+
 .sec-3-body {
   display: flex;
   align-items: center;
@@ -271,6 +305,7 @@ button:hover {
   flex-wrap: wrap;
   gap: 15px;
 }
+
 .card {
   width: 345px;
   height: 334px;
@@ -282,6 +317,7 @@ button:hover {
   justify-content: center;
   flex-direction: column;
 }
+
 .card-title {
   font-size: 18px;
   line-height: 28px;
@@ -289,6 +325,7 @@ button:hover {
   margin-top: 8px;
   margin-bottom: 27px;
 }
+
 .card-des {
   font-weight: 300;
   width: 281px;
@@ -296,6 +333,7 @@ button:hover {
   line-height: 130%;
   text-transform: capitalize;
 }
+
 .sec-4 {
   margin: 136px auto;
   max-width: 1065px;
@@ -307,15 +345,18 @@ button:hover {
   flex-wrap: wrap;
   padding: 10px;
 }
+
 .sec-4-txt {
   width: 361px;
 }
+
 .sec-4-txt h3 {
   font-weight: 700;
   font-size: 48px;
   line-height: 100%;
   margin-bottom: 16px;
 }
+
 .sec-4-txt p {
   font-weight: 400;
   font-size: 16px;
@@ -326,6 +367,7 @@ button:hover {
 footer {
   background: #f6f6f6;
 }
+
 .footer-links {
   margin: 105px auto;
   padding: 10px;
@@ -334,11 +376,13 @@ footer {
   justify-content: center;
   gap: 178px;
 }
+
 .footer-links p:nth-child(1) {
   font-weight: bold;
   margin-top: 105px;
   margin-bottom: 32px;
 }
+
 .footer-links p {
   font-weight: 300;
   font-size: 16px;
@@ -346,13 +390,16 @@ footer {
   margin-bottom: 24px;
   text-transform: capitalize;
 }
+
 .footer-links p a {
   text-decoration: none;
   color: var(--main-color-black);
 }
+
 .footer-links p a:hover {
   color: var(--main-color-hover);
 }
+
 .copyright {
   text-align: center;
   /* margin-bottom: 8px; */
@@ -361,20 +408,25 @@ footer {
   line-height: 100%;
   padding: 8px;
 }
+
 .menu {
   display: none;
   cursor: pointer;
 }
+
 .o-nav {
   transform: translate(0, 0);
 }
+
 @media (max-width: 900px) {
   .menu {
     display: block;
   }
+
   .o-nav {
     transform: translate(0, 80px);
   }
+
   nav {
     background: #eeeeee89;
     position: fixed;
@@ -387,64 +439,81 @@ footer {
     transition: 0.3s;
     z-index: 1;
   }
+
   nav ul a li {
     display: block;
     border-bottom: 1px solid #6670852a;
   }
+
   nav ul a:hover li {
     background: #8eadd5;
     color: #fff;
   }
+
   * {
     text-align: center;
   }
+
   div {
     overflow: hidden;
   }
+
   .hero {
     max-width: 378px;
   }
+
   .hero-txt {
     max-width: 378px;
   }
+
   .hero-txt h1 {
     font-size: 40px;
     line-height: 100%;
   }
+
   .hero-txt p {
     font-size: 16px;
     line-height: 28px;
   }
+
   .hero-img {
     margin-top: 48px;
   }
+
   .sec-2 {
     max-width: 510px;
     padding: 2px;
   }
+
   .sec {
     max-width: 378px;
   }
+
   .sec h3 {
     font-size: 32px;
     line-height: 100%;
   }
+
   .sec p {
     font-size: 14px;
     line-height: 28px;
   }
+
   .arror {
     transform: rotate(90deg);
   }
+
   .arror:hover {
     transform: translateY(2px);
   }
+
   .icon {
     max-height: 86px;
     flex-wrap: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
   }
+
   .sec-3 h3 {
     font-size: 32px;
   }
@@ -452,33 +521,41 @@ footer {
   .sec-4-img {
     display: none;
   }
+
   .sec-4-txt h3 {
     font-size: 32px;
     margin-top: 56px;
   }
+
   .sec-4-txt p {
     font-size: 16px;
     line-height: 28px;
     margin-top: 32px;
   }
+
   .sec-4-txt button {
     margin-bottom: 48px;
   }
+
   .sec-3 h3 {
     max-width: 100%;
   }
+
   .icon img {
     padding: 10px;
     margin: 2px;
   }
+
   .footer-links {
     flex-direction: column;
     align-content: center;
     gap: 0px;
   }
+
   .footer-links p {
     margin-bottom: 15px;
   }
+
   header::before {
     content: "";
     position: absolute;
@@ -487,6 +564,7 @@ footer {
     left: 0;
     top: 0;
   }
+
   .sun::before {
     content: "";
     z-index: -1;
